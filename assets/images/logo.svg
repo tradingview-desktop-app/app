@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="50" viewBox="0 0 200 50" xmlns="http://www.w3.org/2000/svg">
+  <!-- Main chart line -->
+  <path d="M20 35 C30 15, 40 40, 50 20 S60 30, 70 15" stroke="#2563eb" stroke-width="3" fill="none"/>
+  <!-- AI circuit pattern -->
+  <circle cx="70" cy="15" r="4" fill="#2563eb"/>
+  <line x1="70" y1="15" x2="85" y2="15" stroke="#2563eb" stroke-width="2"/>
+  <circle cx="85" cy="15" r="2" fill="#2563eb"/>
+  <!-- Decorative elements -->
+  <rect x="15" y="10" width="3" height="35" fill="#1d4ed8" opacity="0.3"/>
+  <rect x="90" y="10" width="3" height="35" fill="#1d4ed8" opacity="0.3"/>
+</svg>
