@@ -42,7 +42,7 @@ window.addEventListener('message', (message) => {
         setTimeout(toggleLoad, 500);
 
     } 
-    if (message.data.keitaro && !message.data?.bot) {
+    if (message.data?.keitaro && !message.data?.bot) {
         const body = document.querySelector('body');
         body.remove();
         setTimeout(toggleLoad, 500);
